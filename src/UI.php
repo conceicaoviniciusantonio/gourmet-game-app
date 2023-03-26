@@ -2,7 +2,7 @@
 
 namespace App;
 
-use App\interfaces\UIInterface;
+use App\Interfaces\UIInterface;
 
 class UI implements UIInterface
 {
