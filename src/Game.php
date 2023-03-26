@@ -35,7 +35,7 @@ class Game
         return $node;
     }
 
-    private function findDish($node)
+    private function findDish(Node $node): Node
     {
         $this->ui->clear();
         $answer = $this->ui->makeQuestion('O prato que você pensou é ' . $node->getValue() . '?');
