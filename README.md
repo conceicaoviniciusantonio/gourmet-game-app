@@ -2,7 +2,7 @@
 ## Executando a aplicação
 ### Utilizando Docker
 Dependências:
-- Docker: https://docs.docker.com/engine/install/ubuntu/
+- Docker
 
 Acesse o diretório raiz do projeto e execute os seguintes comandos:
 
@@ -16,8 +16,8 @@ $ docker run -it gourmet-game-app
 ```
 ### Utilizando o proprio sistema
 Dependências:
-- PHP 8.1.
-- Composer: https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
+- PHP 8.1
+- Composer
 
 Acesse o diretório raiz do projeto e execute os seguintes comandos:
 
