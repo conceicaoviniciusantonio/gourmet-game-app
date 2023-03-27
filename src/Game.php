@@ -13,7 +13,7 @@ class Game
         $this->ui = $ui;
     }
 
-    public function play()
+    public function play(): void
     {
         $node = $this->buildNode();
         while (true) {
