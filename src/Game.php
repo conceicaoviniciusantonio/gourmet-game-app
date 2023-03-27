@@ -18,7 +18,7 @@ class Game
         $node = $this->buildNode();
         while (true) {
             $this->ui->clear();
-            $this->ui->doWait("Pense em prato que gosta.");
+            $this->ui->doWait("Pense em um prato que gosta.");
             $node = $this->findDish($node);
         }
     }
